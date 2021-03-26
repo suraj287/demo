@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
     <link rel="stylesheet" href="../../bootstrap/css/jindalstell.css">
@@ -109,7 +108,7 @@ left: 250px;
        }
        #backimage {
         border: 1px solid var(--white);
-    background-image: url("1595315060_our-plants-bg.png");
+    background-image: url(1595315060_our-plants-bg.png);
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
     -ms-background-size: cover!important;
@@ -137,7 +136,7 @@ left: 250px;
         .icon-bar a {
           display: block;
           text-align: center;
-          padding: 16px;
+          padding: 8px;
           transition: all 0.3s ease;
           color: white;
           font-size: 20px;
@@ -200,7 +199,16 @@ left: 250px;
        .pos4{
          position: absolute;
          bottom: 70px;
-         left: 700px
+         left: 900px
+         
+       }
+       .header-bg{
+        background-image: url(1608721472_australia-banner-new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
        }
   
   /* .element a{
@@ -219,7 +227,7 @@ left: 250px;
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-md navbar-light fixed-top py-1 bg-white " id="main-nav" >
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-1 bg-white  " id="main-nav" >
         
           <a href="#home" class="navbar-brand">
             <img src="jspl_logo.png" class="mb-4 ml-5" width="150"  alt="logo">
@@ -349,32 +357,51 @@ left: 250px;
 
 
 
-      <section class="header1 " style="background-color: rgba(0,0,0,0); " >
-        <img src="1608721472_australia-banner-new.jpg"  alt="">
-<div class="content "  >
+      
+        
+      <div class="header-bg" style="position: relative;">
         <div class="container">
           <div class="row ">
-            <div class="col-md-6">
-              <h3 style="font-weight :bold; line-height: 40px;" class="pos3">Globel Operations</h3>
+            <div class="col-md-6 pos3 text-white ">
+              <h3 style="font-weight :bold; line-height: 40px;" >Globel Operations</h3>
             </div>
             <div class="col-md-6 pos4">
-           <a href="" class="active" style="text-decoration: none; color: white ; "><span class="mr-5" style="font-size: 1.5rem; line-height: 1.5rem ; border-bottom-color: rgb(242, 121, 32); ">Australia</span></a> 
-             <a href="" style="text-decoration: none; color: white;"> <span style="font-size: 1.5rem; line-height: 1.5rem ;">Africa</span> </a>
+           <a href="" class="active" style=" color: white  ;text-decoration: none; "><span class="mr-5" style="font-size: 1.5rem; line-height: 1.5rem ; border-bottom-color: rgb(242, 121, 32); ">Australia</span></a> 
+             <a href="" style="text-decoration: none; color: white;"> <span style="font-size: 1.5rem; line-height: 1.5rem;">Africa</span> </a>
             </div>
           </div>
         </div>
       </div>
+    
       </section>
 
  
+<style>
+  .aus{
+    margin-top: 24px; 
+    font-size: 5rem; 
+    font-weight: bold ;
 
+  }
+  @media (max-width:720px){
+    .pos3,.pos4 {
+   display: none;
+}
+.aus{
+  font-size: 55px;
+}
+/* .icon-bar{
+  display: none;
+} */
+  }
+</style>
 
       <section>
        
 
           <div class="container">
             <div>
-              <h1 style="margin-top: 28px; font-size: 5rem; font-weight: bold;">
+              <h1 class="aus">
                 AUSTRALIA 
               </h1>
             
@@ -401,7 +428,7 @@ left: 250px;
             </div>
 
             <div>
-              <h3 style="font-weight: 500; line-height: 1.75rem; font-size: 1.75rem ;">Achievements</h3>
+              <h3 style="font-weight: 500; line-height: 1.75rem ; font-size: 1.75rem;">Achievements</h3>
 
               <p class="lead " style="line-height: 48px; font-size: 1.5rem;">
                 - WCL and Jindal Steel and Power (Australia) Pty Ltd entered into a Scheme of Arrangement (‘Scheme’) with its secured creditors to restructure its long-term debt. The Scheme was approved by the Supreme Court of New South Wales and the restructured facilities became effective from 5th May 2020.
@@ -504,7 +531,7 @@ left: 250px;
                   </div>
                 </div>
                   <div class="col-md-6">
-                      <img src="1610789591_australia.png">
+                      <img src="1610789591_australia.png"  >
                   </div>
                   
               </div>
@@ -602,7 +629,7 @@ left: 250px;
                                 https://d3vvmt2ub6odwk.cloudfront.net/static/jspl/dist/images/logo/jspl_logo_white_lg.png 4x" src="https://d3vvmt2ub6odwk.cloudfront.net/static/jspl/dist/images/logo/jspl_logo_white.png" alt="jspl logo" class="img-fluid" />
                             </div>
                             <div class="action-buttons design1 action-buttons-xs">
-                                <a href="" class="button-v1 button-v1--ls-05 button-v1--minWidth button-v1--uppercase button-v1--whiteBg button-v1--withIcon">
+                                <a href="/contact-us.html" class="button-v1 button-v1--ls-05 button-v1--minWidth button-v1--uppercase button-v1--whiteBg button-v1--withIcon">
                                     <span class="button-v1__text text-white">Contact Us</span>
                                     <span class="button-v1__icon icon-right arrow"></span>
                                 </a>
@@ -669,16 +696,16 @@ left: 250px;
                     <div class="footer__bottom">
                         
                         <div class="social-container social-container-xs design1 p-2">
-                            <a href="" target="" class="social-container__link mr-2">
+                            <a href="e" target="_blank" class="social-container__link mr-2">
                                 <i class="fab fa-facebook fa-2x"></i>
                             </a>
                             <a href="" target="_blank" class="social-container__link mr-2">
                                 <i class="fab fa-twitter fa-2x"></i>
                             </a>
-                            <a href="" target="" class="social-container__link mr-2">
+                            <a href="" target="_blank" class="social-container__link mr-2">
                                 <i class="fab fa-linkedin-in fa-2x"></i>
                             </a>
-                            <a href="" target="" class="social-container__link mr-2">
+                            <a href="" target="_blank" class="social-container__link mr-2">
                                 <i class="fab fa-youtube fa-2x"></i>
                             </a>
                         </div>
@@ -690,7 +717,7 @@ left: 250px;
                             <div class="global-navs global-navs-xs design3">
                                 <ul class="global-navs__grid d-flex">
                                     <li class="global-navs__list">
-                                        <a class="global-navs__item text-white" href=" ">Disclaimer</a>
+                                        <a class="global-navs__item text-white" href="l ">Disclaimer</a>
                                     </li>
                                     <li class="global-navs__list">
                                         <a class="global-navs__item text-white" href="">Privacy Policy</a>
@@ -715,8 +742,11 @@ left: 250px;
 
 
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 </body>
 </html>
